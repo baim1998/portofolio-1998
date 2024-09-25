@@ -6,9 +6,7 @@ import AnimatedText from "@/app/animation/animation-text"; // Import AnimatedTex
 import { Progress } from "../ui/progress";
 import Footer from "./Footer";
 
-interface INavbarProps {}
-
-const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
+const Navbar: React.FunctionComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const portfolioRef = React.useRef<HTMLDivElement>(null); //Buat ref untuk portofolio
   const aboutMeRef = React.useRef<HTMLDivElement>(null); // Buat ref untuk bagian About Me
