@@ -2,7 +2,7 @@
 import * as React from "react";
 import { useState } from "react";
 import Image from "next/image";
-import AnimatedText from "@/app/animation/animation-text"; // Import AnimatedText
+// import AnimatedText from "@/app/animation/animation-text"; // Import AnimatedText
 import { Progress } from "../ui/progress";
 import Footer from "./Footer";
 
@@ -116,9 +116,9 @@ const Navbar: React.FunctionComponent = () => {
             <h2 className="text-5xl lg:text-8xl text-white font-bold">
               NAJAD IBRAHIM
             </h2>
-            <AnimatedText /> {/* Menambahkan komponen AnimatedText di sini */}
+            {/* <AnimatedText /> Menambahkan komponen AnimatedText di sini */}
             {/* Container untuk ikon media sosial */}
-            <div className="flex justify-center lg:justify-start pt-10 gap-2 items-center">
+            <div className="flex justify-center lg:justify-start pt-5 gap-2 items-center">
               <h1 className="pt-3 text-teal-50 font-semibold text-xl">
                 You can find me
               </h1>
@@ -289,6 +289,7 @@ const Navbar: React.FunctionComponent = () => {
                       Javascript
                     </h1>
                     <Progress value={50} className="w-32 md:w-40 bg-white" />
+
                     <h1 className="text-white font-semibold text-lg">50%</h1>
                   </div>
                 </div>
@@ -306,7 +307,7 @@ const Navbar: React.FunctionComponent = () => {
                   </div>
                   <div className="flex flex-col">
                     <h1 className="text-white text-xl font-semibold">Html</h1>
-                    <Progress value={75} className="w-32 md:w-40 bg-white" />
+                    <Progress value={75} className="w-32 bg-white md:w-40 " />
                     <h1 className="text-white font-semibold text-lg">75%</h1>
                   </div>
                 </div>
