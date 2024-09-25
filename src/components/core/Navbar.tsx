@@ -112,7 +112,7 @@ const Navbar: React.FunctionComponent = () => {
         <div className="bg-slate-500 w-full h-auto flex flex-col lg:flex-row items-center px-4 lg:px-40 py-20 lg:py-60 gap-10 lg:gap-36">
           {/* Container untuk teks dan AnimatedText */}
           <div className="flex flex-col lg:mr-10 text-center lg:text-left">
-            <h1 className="text-white text-2xl font-bold">Hello I&aposm</h1>
+            <h1 className="text-white text-2xl font-bold">Hello I&apos;m</h1>
             <h2 className="text-5xl lg:text-8xl text-white font-bold">
               NAJAD IBRAHIM
             </h2>
