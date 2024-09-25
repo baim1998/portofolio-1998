@@ -1,8 +1,6 @@
 "use client";
 import * as React from "react";
 import { useState } from "react";
-import { NavigationMenu, NavigationMenuItem } from "../ui/navigation-menu";
-import Link from "next/link";
 import Image from "next/image";
 import AnimatedText from "@/app/animation/animation-text"; // Import AnimatedText
 import { Progress } from "../ui/progress";
@@ -116,7 +114,7 @@ const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
         <div className="bg-slate-500 w-full h-auto flex flex-col lg:flex-row items-center px-4 lg:px-40 py-20 lg:py-60 gap-10 lg:gap-36">
           {/* Container untuk teks dan AnimatedText */}
           <div className="flex flex-col lg:mr-10 text-center lg:text-left">
-            <h1 className="text-white text-2xl font-bold">Hello I'm</h1>
+            <h1 className="text-white text-2xl font-bold">Hello I&aposm</h1>
             <h2 className="text-5xl lg:text-8xl text-white font-bold">
               NAJAD IBRAHIM
             </h2>
@@ -240,16 +238,16 @@ const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
             </h1>
             <div className="flex flex-col justify-center items-center pt-4 text-lg text-white font-semibold">
               <p>
-                I'm a passionate front-end developer who's always eager to learn{" "}
-                <br />
+                I&apos;m a passionate front-end developer who&apos;s always
+                eager to learn <br />
                 new things. Besides coding, I also love exploring my creativity{" "}
                 <br />
                 through video editing, photography, and storytelling.
               </p>
               <br />
               <p>
-                I'm currently honing my skills as a front-end developer. With a{" "}
-                <br />
+                I&apos;m currently honing my skills as a front-end developer.
+                With a <br />
                 background in video editing and storytelling, I have a keen eye{" "}
                 <br />
                 for design and user experience.
